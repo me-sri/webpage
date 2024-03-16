@@ -1,0 +1,39 @@
+.fullscreen-imges{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.fullscreen-imges img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* Add your other CSS styles here */
+
+/* Scroll to Top Icon */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+  }
+  
+  /* Adjust position for small screens */
+  @media (max-width: 768px) {
+    .scroll-to-top {
+      bottom: 10px;
+      right: 10px;
+    }
+  }
+
+.footer-link {
+    text-decoration: none;
+  }
+  
+  
+
+
+
+
